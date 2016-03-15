@@ -1,0 +1,24 @@
+.site-footer {
+  background: url(../img/dark-bg.jpg);
+  padding: 20px 0;
+}
+
+.site-footer .social-links {
+  float: right;
+
+  li {
+    float: left;
+    list-style-type: none;
+    margin-right: 5px;
+
+    a {
+      font-size: 38px;
+      color: #c2c2c2;
+
+      &:hover {
+        color: #ffd500;
+        opacity: 0.6;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@import "normalize";
+
+@import 'utils/mixins';
+@import 'utils/variables';
+
+@import 'base/layout';
+@import 'base/typography';
+
+@import 'pages/header';
+@import 'pages/posts';
+@import 'pages/slide';
+@import 'pages/sidebar';
+@import 'pages/galery-category2';
+@import 'pages/footer';

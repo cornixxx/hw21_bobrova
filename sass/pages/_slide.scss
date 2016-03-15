@@ -1,0 +1,66 @@
+.flexslider {
+  background: url(../img/stripped-bg.png);
+  padding: 6px;
+}
+
+ol.flex-control-nav {
+  width: auto;
+  top: 15px;
+  right: 16px;
+}
+
+.flex-control-nav li {
+  margin: 1px 0;
+  zoom: 1;
+  display: list-item;
+}
+
+.flex-control-paging li a{
+  text-indent: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 0;
+  background-color: rgba(#222, 0.6);
+  font-size: 0.812em;
+  padding-top: 5px;
+  color: #ffffff;
+}
+
+.flex-control-paging li a.flex-active {
+  color: #ffd500;
+  background: #2e2e2e;
+}
+
+.slide-caption {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #222;
+  color: #ececec;
+  font-family: 'Oswald', sans-serif;
+  border-top: 4px solid  #ffd500;
+  padding: 18px 16px;
+
+  p:first-child {
+    font-size: 1.375em;
+    margin-bottom: 5px;
+  }
+
+  p:last-child {
+    font-size: 0.9375em;
+    font-weight: 300;
+  }
+}
+
+.flexslider:hover .flex-direction-nav .flex-prev {
+  opacity: 0;
+}
+.flexslider:hover .flex-direction-nav .flex-prev:hover {
+  opacity: 0;
+}
+.flexslider:hover .flex-direction-nav .flex-next {
+  opacity: 0;
+}
+.flexslider:hover .flex-direction-nav .flex-next:hover {
+  opacity: 0;
+}

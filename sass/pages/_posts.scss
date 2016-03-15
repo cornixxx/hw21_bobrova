@@ -1,0 +1,131 @@
+.page-info {
+  position: relative;
+  margin: 55px 0 45px;
+  background: #222;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.page-info::before {
+  position: absolute;
+  top: 70%;
+  left: 7%;
+  content: '';
+  border-top: 22px solid #222;
+  border-left: 8px solid transparent;
+  border-bottom: 22px solid transparent;
+  border-right: 8px solid #222;
+  transform: rotate(-35deg);
+}
+
+article.post {
+  border-bottom: 5px solid #e7e7e7;
+  margin-bottom: 55px;
+}
+
+ .date {
+  float: left;
+  width: 77px;
+  height: 77px;
+  background-color: #c3c3c3;
+  color: black;
+  outline: 1px solid rgba(255, 255, 255, 0.44);
+  outline-offset: -7px;
+  padding: 15px;
+  margin-right: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+
+  .day {
+    display: block;
+    font-size: 2.25em;
+    font-weight: 700;
+    line-height: 0.9;
+  }
+
+  .month {
+    font-size: 0.875em;
+    font-weight: 300;
+    display: block;
+  }
+}
+
+.post-heading {
+  margin-bottom: 20px;
+
+  h3 {
+    font-family: Oswald, sans-serif;
+    font-size: 1.25em;
+    margin: 2px 0 10px;
+
+    a {
+      color: #222;
+    }
+  }
+
+  .post-info {
+    display: inline-block;
+    background-color: #ecebeb;
+    color: black;
+    font-weight: 700;
+    margin-right: 10px;
+    font-size: 12px;
+    padding: 5px;
+
+    span {
+      margin-right: 5px;
+      color: #afacac;
+    }
+
+    a {
+      color: black;
+    }
+  }
+}
+
+.article-content {
+  overflow: hidden;
+}
+
+.entry-content p {
+  color: #a5a4a4;
+  font-size: 0.875em;
+  line-height: 1.74;
+}
+
+.more-link {
+  display: block;
+  position: relative;
+  width: 157px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  background-color: #ffd500;
+  color: #2c2c2b;
+  font-family: Oswald, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+
+  .screen-reader-text {
+    display: none;
+  }
+
+  span {
+    display: block;
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    width: 22px;
+    height: 22px;
+    background: url(../img/stripped-bg.png);
+    text-align: center;
+    font-size: 16px;
+    padding: 4px 0;
+  }
+}
+
+
+
